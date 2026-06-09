@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Personal portfolio of Vineetha Satya Punyamanthula, B.Tech CSE (Cyber Security) student passionate about technology and continuous learning." },
       { name: "author", content: "Vineetha Satya Punyamanthula" },
       { property: "og:title", content: "Vineetha Satya Punyamanthula — Portfolio" },
-      { property: "og:description", content: "B.Tech CSE (Cyber Security) student — projects, skills, certifications, and learning journey." },
+      { property: "og:description", content: "Personal portfolio of Vineetha Satya Punyamanthula, B.Tech CSE (Cyber Security) student passionate about technology and continuous learning." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Vineetha Satya Punyamanthula — Portfolio" },
+      { name: "twitter:description", content: "Personal portfolio of Vineetha Satya Punyamanthula, B.Tech CSE (Cyber Security) student passionate about technology and continuous learning." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8f47709d-1cc3-47d4-a8e1-4b8c3c5e6d9a/id-preview-9aff0168--953af132-9048-4767-bbaa-52d9b63e1757.lovable.app-1780978355771.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8f47709d-1cc3-47d4-a8e1-4b8c3c5e6d9a/id-preview-9aff0168--953af132-9048-4767-bbaa-52d9b63e1757.lovable.app-1780978355771.png" },
     ],
     links: [
       {
